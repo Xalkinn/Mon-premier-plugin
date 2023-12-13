@@ -1,0 +1,15 @@
+name: MonPlugin
+version: 1.0
+author: Xalkinn
+main: fr.xalkinn.monplugin.main
+commands:
+  test:
+    description: Ceci est une commande de test
+    permission: test.use
+  alert:
+    description: Ceci est un broadcast custom
+    permission: bc.use
+  broadcast:
+    description: Message bc custom
+  spawn:
+    description: Ceci est une commande pour se teleporter au spawn
